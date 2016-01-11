@@ -33,15 +33,15 @@ public class PassGen {
 					int randomFinal = rand.nextInt((126 - 123) + 1) + 126;
 					finalPass += (char)randomFinal;
 				}
-				//if random number is a number
+			//if random number is a number
 			}else if (randomFirst==2){
 				int randomFinal = rand.nextInt((57 - 48) + 1) + 48;
 				finalPass += (char)randomFinal;
-				//if random number is a upper case letter
+			//if random number is a upper case letter
 			}else if (randomFirst==3){
 				int randomFinal = rand.nextInt((90 - 65) + 1) + 65;
 				finalPass += (char)randomFinal;
-				//if random number is a lower case letter
+			//if random number is a lower case letter
 			}else if (randomFirst==4){
 				int randomFinal = rand.nextInt((122 - 97) + 1) + 97;
 				finalPass += (char)randomFinal;
